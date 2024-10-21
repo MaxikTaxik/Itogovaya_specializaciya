@@ -1,0 +1,459 @@
+ip a
+clear
+sudo apt update
+ls
+ls -al
+mc
+vim .bash_history 
+apt update
+sudo apt update
+sudo apt insatall openssh-server
+sudo apt install openssh-server
+sudo apt install mc
+systemctl status ssh
+sudo ss -ntlp
+systemctl status ssh
+sudo systemctl enable --now ssh
+systemctl status ssh
+sudo ss -ntlp
+systemctl status ssh
+sudo ss -ntlp
+ip a
+sudo apt install gcc make perl
+clear
+ip a
+echo helllo
+ls
+ls -al
+cd
+ls
+mc
+mkdir testFolder
+ls
+d testFolder/
+cat > firstFile
+ls
+cd testFolder/
+ls
+ls -al
+cat > firstFile
+ls
+cat firstFile 
+cat > seondFile
+ls
+mv seondFile 
+mv seondFile secondfile
+ls
+mv secondfile secondFile
+ls
+cat firstFile secondFile > thirdFile
+ls
+cat thirdFile 
+mkdir newDirectory
+ls
+pwd
+mv firstFile [200~/home/maksim/testFolder
+~pwd
+pwd
+mv firstFile /home/maksim/testFolder
+ls
+cd newDirectory/
+ls
+cd ..
+mv firstFile /home/maksim/testFolder/newDirectory/
+ls
+cd newDirectory/
+ls
+rm firstFile 
+ls
+cd ..
+ls
+cd ..
+ls
+rm -r testFolder/
+ls
+rm firstFile 
+ls
+ls -al
+touch file1
+cat >> file1
+ls
+cat file1 
+cp file1 file2
+ls
+cat file2
+ln -s file1 file3
+ls -al
+cat file3
+ls -al
+ls
+cat file1
+cat file2
+cat file3
+clear
+ls
+rm file1 file2 file3
+ls
+cat > file1
+ls
+cat file1 
+cat > file
+cat file1 file2 > file3
+cat file3
+mv file3 file3.1
+ls
+man touch
+touch newfile1 newfile2
+ls
+mkdir newDerectory
+ls
+mv newfile1 newfile2 newDerectory/
+ls
+rm -r file1 file2 file3 newDerectory/
+rm -r file1 file2 file3.1 newDerectory/
+ls
+cat > file1
+ls
+cp file1 file2
+ls
+cat file2
+ln -s file3 file1
+ls
+pwd
+ln -s /home/maksim/file1 /home/maksim/file3
+ls
+cat file3
+ln /home/maksim/file4 /home/maksim/file1
+ln -s /home/maksim/file1 /home/maksim/file4
+ls
+ls -a
+ls -al
+rm file4
+ls
+ln /home/maksim/file1 /home/maksim/file4
+ls -al
+cat file4
+ls -al help
+ls -al -h
+ls -al -i
+ls -i
+ls -a -i
+ls -al -i
+rm file1
+ls -al -i
+ls
+mv file2 file2.1 file4 file4.1
+mv file2 file2.1 file3 file3.1
+ls
+mv file4 file4.1
+ls
+mv file3 file3.1
+ls
+mv file2 file2.1
+ls
+ls -all
+clear
+ls -all
+ls -s /home/maksim/newFile3.1 /home/maksim/file2.1
+ls -s /home/maksim/file2.1 /home/maksim/newFile3.1
+ls -all
+cat file2.1 
+clear
+ls -s /home/maksim/file2.1 /home/maksim/newFile3.1
+ls -all
+ls -s /home/maksim/file2.1 /home/maksim/newFile3.1
+pwd
+ls -s /home/maksim/file2.1 newFile3.1
+ln -s /home/maksim/file2.1 /home/maksim/newFile3.1
+ls -all
+mkdir anotherDerectory
+ls
+mv newFile3.1 anotherDerectory/
+ls
+cd anotherDerectory/
+ls
+cd ..
+ls
+/ newFile3.1 anothern
+ls
+anacron 
+anotherDerectory/
+cd anotherDerectory/
+ls
+ip a
+mc
+sysytemctl
+systemctl 
+systemctl status 
+systemctl status ssh
+ss
+ss -ntlp
+ip a
+systemctl status ssh
+ss -ntlp
+ip a
+cat>Домашние животные
+cat Домашние животные
+cat<Домашние животные
+cat<Домашние_животные
+cat>Домашние_животные
+ls
+rm file2.1 file4.1 Домашние
+ls
+cat Домашние_животные 
+ls
+git --version
+sudo apt update & upgrade
+123
+sudo apt update & upgrade
+sudo apt update
+sudo apt upgrade
+git 
+sudo apt install git
+git status
+ls
+mdir Itogovaya
+mkdir Itogovaya
+ls
+cd Itogovaya/
+ls
+git init
+git status
+git branch
+ls
+echo "# Itogovaya_specializaciya" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git push -u origin main
+ls
+cut README.md 
+git log
+git status
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git push -u origin main
+git config --global user.email "paramailfirst@gmail.com"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git push -u origin main
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git branch -M main
+git push -u origin main
+git log
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/MaxikTaxik/Itogovaya_specializaciya.git
+git branch -M main
+git push -u origin main
+git credential-manager erase
+protocol=https
+host=github.com
+git remote -v
+git push -u origin main
+git status
+ls -l
+cd ..
+ls -l
+cd Itogovaya/
+ls -all
+git branch
+git branch change
+git branch
+git checkout change 
+git branch
+sudo cat > Pats
+ды
+ls
+cat Pats 
+cat < Pats 
+cat >> Pats 
+cat Pats 
+cat >> Pats 
+cat Pats 
+cat > Pack animals
+sudo cat > Pack animals
+sudo cat > Pack_animals
+ls
+git status
+ls
+rm Pack
+ls
+git status
+git add ..
+git add .
+git status
+git commit -m "Создал два файла Pets и Pack_animals"
+git log --graph
+ls
+cat Pats
+mv Pats Pets
+ls
+git status
+git reset HEAD^1
+git status
+git log --graph
+git status
+git log --graph
+git add .
+git status
+git commit -m "Создал два файла Pets и Pack_animals"
+git log --graph
+cat Pets Pack_animals > Human Friends 
+cat Pets Pack_animals > Human_Friends 
+ls
+rm Human 
+ls
+cat Human_Friends 
+ls --al
+ls --all
+ls --all -i
+ls --help
+ls --file-type  
+ls -F
+ls -X
+ls
+ls -l
+ls -l -F
+ls * txt
+cd ..
+ls -l -F
+cd Itogovaya/
+ls * .txt
+ls * .md
+ls *.md
+ls *.txt
+mv Pets Pets.txt
+ls -l -F
+mv Pack_animals Pack_animals.txt
+rm Human_Friends 
+ls
+cat Pack_animals.txt 
+git status
+git log -graph
+git log --graph
+git reset HEAD^2
+git log --graph
+git reset HEAD^1
+git log --graph
+git status
+git add .
+git commit -m "Создал два файла Pets.txt и Pack_animals.txt"
+git log --graph
+cat Pets.txt Pack_animals.txt > Human_Friends.txt
+ls
+cat Human_Friends.txt 
+git commit -m "Объединил содержимое двух файлов и переименовал в Human_friends.txt"
+git add .
+git commit -m "Объединил содержимое двух файлов и переименовал в Human_friends.txt"
+git log --graph
+git status
+ls
+cd Itogovaya/
+ls
+git status
+git log
+git log origin
+git log origin/change
+sudo apt update && upgrade
+sudo apt install mysql-server
+mysql --version
+ls
+git status
+sudo systenctl status sql
+sudo systemctl status sql
+sudo systemctl status mysql
+mysql-apt-config
+sudo mysql-apt-config
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb 
+mysql --version
+wget https://dev.mysql.com/get/mysql-apt-config_8.0.39-0_all.deb
+sudo apt update apt-cache policy mysql-server
+apt-cache policy mysql-server
+wget https://dev.mysql.com/get/mysql-apt-config_8.0.39-1_all.deb
+sudo dpkg -i mysql-apt-config_8.0.39-1_all.deb 
+sudo dpkg -i mysql-apt-config_8.0.39-0_all.deb 
+apt-cache policy mysql-server
+wget https://dev.mysql.com/get/mysql-apt-config_8.0.39-0_all.deb
+wget https://dev.mysql.com/get/mysql-apt-config_8.0.3_all.deb
+wget http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages
+wget http://security.ubuntu.com/ubuntu
+sudo dpkg -i mysql-apt-config_8.0.39-0_all.deb 
+wget -q
+wget -q http://security.ubuntu.com/ubuntu
+wget -nv http://security.ubuntu.com/ubuntu
+wget -v http://security.ubuntu.com/ubuntu
+wget -q http://security.ubuntu.com/ubuntu
+ps aux | grep wget
+ps aux
+clear
+sudo dpkg-reconfigure mysql-apt-config
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+sudo apt install mysql-server mysql-client
+sudo systemctl status mysql
+sudo apt install mysql-client
+dpkg -l
+dpkg --list~
+dpkg --list
+dpkg --info apt.deb
+dpkg --list
+dpkg --info apt
+dpkg --info apt.deb
+sudo dpkg -i example.deb
+sudo dpkg --info apt.deb
+sudo dpkg -i apt.deb
+sudo dpkg -i example.deb
+cd ..
+ls
+cd Downloads/
+ls
+cd ~
+ls
+cd Itogovaya/
+ls
+ls --all
+ls -all
+rm mysql-apt-config_0.8.26-1_all.deb.1 ubuntu ubuntu.1 ubuntu.2 ubuntu.3 ubuntu.4 ubuntu.5
+ls
+ls -all
+rm mysql-apt-config_0.8.26-1_all.deb 
+ls
+cd ../Downloads/
+ls
+sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+ls
+sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+ls
+sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+ls
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+ls
+rm mysql-apt-config_0.8.26-1_all.deb.1
+ls
+dpkg --list
+sudo dpkg -remove mysql-apt-config_0.8.26-1_all.deb
+sudo dpkg --remove mysql-apt-config_0.8.26-1_all.deb
+sudo dpkg --remove mysql-apt-config.deb
+sudo dpkg --remove mysql-apt-config
+dpkg --list
+sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+dpkg --list
+clear
+history
+history -w Колотиевский_Максим_Николаевич_21.10.24(Разработчик_Программист_Специализация).txt
+history -w Колотиевский_Максим_Николаевич_21.10.24_Разработчик_Программист_Специализация.txt
