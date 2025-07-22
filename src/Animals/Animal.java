@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public abstract class Animal {
-    protected int id;
+    protected static int id;
     protected String name;
     protected LocalDate birthDate;
     protected List<String> commands;
