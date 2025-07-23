@@ -1,7 +1,6 @@
 package MVP;
 
 // Controller.java
-import Animals.*;
 import BaseClass.Animal;
 
 import java.time.LocalDate;

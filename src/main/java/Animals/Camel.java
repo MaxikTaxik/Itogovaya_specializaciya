@@ -1,31 +1,31 @@
 package Animals;
 
-import Subanimal.Pets;
 
 import java.time.LocalDate;
-import java.util.Collections;
 
-public class Cat extends Pets {
-    public Cat(int id, String name, LocalDate birthDate) {
+public class Camel extends Pack_animals {
+    public Camel(int id, String name, LocalDate birthDate) {
         super(id, name, birthDate);
-        commands.add("Мурлыкай");
-        commands.add("Спи");
+        commands.add("Иди");
     }
 
     @Override
     public void displayInfo() {
         System.out.println("ID Животного: " + getId());
-        System.out.println("Кошка: " + name);
+        System.out.println("Верблюд: " + name);
     }
 }
+
+
 /*
     @Override
     public void comands() {
-        System.out.println("The cat going to a dish.");
+        System.out.println("");
     }
+
     @Override
     protected void listOfComands() {
-        System.out.println(this.name);
+        System.out.println(this.listOfComands(););
     }
 
     @Override
@@ -41,3 +41,4 @@ public class Cat extends Pets {
     }
 
  */
+

@@ -1,4 +1,4 @@
-package BaseClass;
+package Animals;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -6,13 +6,14 @@ import java.util.List;
 
 
 public abstract class Animal {
-    protected static int id;
+    protected static int countId = 0;
+    protected int id;
     protected String name;
     protected LocalDate birthDate;
     protected List<String> commands;
 
-    public Animal(int id, String name, LocalDate birthDate) {
-        this.id = id;
+    public Animal(String name, LocalDate birthDate) {
+        this.id = Animal.countId++;
         this.name = name;
         this.birthDate = birthDate;
         this.commands = new ArrayList<>();

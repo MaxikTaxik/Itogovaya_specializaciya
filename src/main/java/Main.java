@@ -1,17 +1,8 @@
-package Main;
-
-import Animals.Cat;
-import Animals.Dog;
-import Animals.Hamster;
 import BaseClass.Animal;
 import Counter.Counter;
 import MVP.Controller;
 import MVP.Model;
 import MVP.View;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {

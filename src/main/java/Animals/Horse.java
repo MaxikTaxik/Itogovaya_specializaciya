@@ -1,34 +1,23 @@
 package Animals;
 
-import Subanimal.Pets;
 
 import java.time.LocalDate;
-import java.util.Collections;
-
-public class Hamster extends Pets {
-    public Hamster(int id, String name, LocalDate birthDate) {
+public class Horse extends Pack_animals {
+    public Horse(int id, String name, LocalDate birthDate) {
         super(id, name, birthDate);
-        commands.add("Бегай");
+        commands.add("Галопируй");
     }
 
     @Override
     public void displayInfo() {
         System.out.println("ID Животного: " + getId());
-        System.out.println("Хомяк: " + name);
+        System.out.println("Лошадь: " + name);
     }
 }
 
 /*
     @Override
     public String toString(){
-        StringBuilder sb = new StringBuilder();
-        sb.append(this.getClass().getSimpleName());
-        sb.append(": ");
-        sb.append(this.name);
-        return sb.toString();
-    }
-
-    public String detailToString(){
         StringBuilder sb = new StringBuilder();
         sb.append("The name is: " + this.name);
         sb.append("\n");

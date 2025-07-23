@@ -1,12 +1,10 @@
 package Animals;
 
 
-import Subanimal.Pack_animals;
-
 import java.time.LocalDate;
 
-public class Camel extends Pack_animals {
-    public Camel(int id, String name, LocalDate birthDate) {
+public class Donkey extends Pack_animals {
+    public Donkey(int id, String name, LocalDate birthDate) {
         super(id, name, birthDate);
         commands.add("Иди");
     }
@@ -14,12 +12,24 @@ public class Camel extends Pack_animals {
     @Override
     public void displayInfo() {
         System.out.println("ID Животного: " + getId());
-        System.out.println("Верблюд: " + name);
+        System.out.println("Осёл: " + name);
     }
 }
 
 
 /*
+    @Override
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("The name is: " + this.name);
+        sb.append("\n");
+        sb.append("Color is: " + this.color);sb.append("\n");
+       
+        sb.append("Weight is: " + this.weight);
+        sb.append("\n");
+        return sb.toString();
+    }
+
     @Override
     public void comands() {
         System.out.println("");
@@ -27,7 +37,7 @@ public class Camel extends Pack_animals {
 
     @Override
     protected void listOfComands() {
-        System.out.println(this.listOfComands(););
+        System.out.println(this.name);
     }
 
     @Override

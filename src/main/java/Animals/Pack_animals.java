@@ -1,4 +1,4 @@
-package Subanimal;
+package Animals;
 
 
 import BaseClass.Animal;

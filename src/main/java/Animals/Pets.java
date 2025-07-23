@@ -1,13 +1,11 @@
-package Subanimal;
-
-import BaseClass.Animal;
+package Animals;
 
 import java.time.LocalDate;
 
 
 public abstract class Pets extends Animal {
     public Pets(int id, String name, LocalDate birthDate) {
-        super(id, name, birthDate);
+        super(name, birthDate);
     }
 
 

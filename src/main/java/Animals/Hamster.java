@@ -1,27 +1,31 @@
 package Animals;
 
-
-import Subanimal.Pack_animals;
-
 import java.time.LocalDate;
 
-public class Donkey extends Pack_animals {
-    public Donkey(int id, String name, LocalDate birthDate) {
+public class Hamster extends Pets {
+    public Hamster(int id, String name, LocalDate birthDate) {
         super(id, name, birthDate);
-        commands.add("Иди");
+        commands.add("Бегай");
     }
 
     @Override
     public void displayInfo() {
         System.out.println("ID Животного: " + getId());
-        System.out.println("Осёл: " + name);
+        System.out.println("Хомяк: " + name);
     }
 }
-
 
 /*
     @Override
     public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.getClass().getSimpleName());
+        sb.append(": ");
+        sb.append(this.name);
+        return sb.toString();
+    }
+
+    public String detailToString(){
         StringBuilder sb = new StringBuilder();
         sb.append("The name is: " + this.name);
         sb.append("\n");

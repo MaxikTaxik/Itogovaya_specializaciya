@@ -1,38 +1,34 @@
 package Animals;
 
-import Subanimal.Pets;
-
 import java.time.LocalDate;
-import java.util.Collections;
 
-public class Dog extends Pets {
-    public Dog(int id, String name, LocalDate birthDate) {
+public class Cat extends Pets {
+    public Cat(int id, String name, LocalDate birthDate) {
         super(id, name, birthDate);
-        commands.add("Сиди");
-        commands.add("Лежи");
+        commands.add("Мурлыкай");
+        commands.add("Спи");
     }
 
     @Override
     public void displayInfo() {
         System.out.println("ID Животного: " + getId());
-        System.out.println("Собака: " + name);
+        System.out.println("Кошка: " + name);
     }
 }
 /*
-
     @Override
     public void comands() {
-        System.out.println("");
+        System.out.println("The cat going to a dish.");
+    }
+    @Override
+    protected void listOfComands() {
+        System.out.println(this.name);
     }
 
     @Override
-    public void listOfComands() {
-        System.out.println(this.comand);
-    }
-    @Override
-    public void addToListComands(String newComand) {
+    protected void addToListComands(String newComand) {
         StringBuilder sb = new StringBuilder();
-        sb.append(this.comand + ", " + newComand);
+        sb.append(this.comand + newComand);
         this.comand = sb.toString();
     }
 
@@ -41,6 +37,4 @@ public class Dog extends Pets {
         return this.dateBirth;
     }
 
-
  */
-
