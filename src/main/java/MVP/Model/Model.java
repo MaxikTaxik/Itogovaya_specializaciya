@@ -1,6 +1,6 @@
-package MVP;
+package MVP.Model;
 
-import BaseClass.Animal;
+import Animals.*;
 import Counter.Counter;
 
 import java.util.ArrayList;
@@ -14,16 +14,13 @@ import java.util.List;
 
 public class Model {
     private List<Animal> animals = new ArrayList<>();
-    private Counter counter;
+
 
     public Model(Counter counter) {
         this.counter = counter;
     }
 
-    public void addAnimal(Animal animal) {
-        animals.add(animal);
-        counter.add();
-    }
+
 
     public void removeAnimal(int id) {
         animals.removeIf(a -> a.getId() == id);

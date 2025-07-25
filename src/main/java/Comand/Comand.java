@@ -1,11 +1,7 @@
 package Comand;
 
-import java.util.List;
+import Animals.Animal;
 
-public class Comand {
-	String name;
-
-	public void execut(){
-
-	}
+public abstract class Comand {
+	abstract public void executing(Animal anumal);
 }

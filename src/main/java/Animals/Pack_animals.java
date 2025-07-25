@@ -1,13 +1,12 @@
 package Animals;
 
-
-import BaseClass.Animal;
-
 import java.time.LocalDate;
 
 public abstract class Pack_animals extends Animal {
-    public Pack_animals(int id, String name, LocalDate birthDate) {
-        super(id, name, birthDate);
+    private static int countId = 0;
+    public Pack_animals(String name, LocalDate birthDate) {
+        super(name, birthDate);
+        this.id = Pack_animals.countId++;
     }
 
  /*   @Override

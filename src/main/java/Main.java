@@ -1,7 +1,7 @@
 import BaseClass.Animal;
 import Counter.Counter;
 import MVP.Controller;
-import MVP.Model;
+import MVP.Model.Model;
 import MVP.View;
 
 public class Main {

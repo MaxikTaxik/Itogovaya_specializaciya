@@ -1,7 +1,8 @@
 package MVP;
 
 // Controller.java
-import BaseClass.Animal;
+import Animals.*;
+import MVP.Model.Model;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

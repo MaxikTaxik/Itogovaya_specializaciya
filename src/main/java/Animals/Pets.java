@@ -4,8 +4,10 @@ import java.time.LocalDate;
 
 
 public abstract class Pets extends Animal {
+    private static int countId = 0;
     public Pets(int id, String name, LocalDate birthDate) {
         super(name, birthDate);
+        this.id = Pets.countId++;
     }
 
 
